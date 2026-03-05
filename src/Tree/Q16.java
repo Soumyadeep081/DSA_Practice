@@ -19,6 +19,7 @@ public class Q16 {
         return root;
     }
     public static void main(String[] args) {
+        //Bottom View of BT:
         Integer[]nums={20, 8, 22, 5, 3, 4, 25, null, null, 10, 14, null, null, 28, null};
         Node root=insert(nums,0);
 
