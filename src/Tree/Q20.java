@@ -34,7 +34,7 @@ public class Q20 {
         }
     }
     public static int amountOfTime(Node root, int start) {
-        Node startNode=find(root,start);
+        Node startNode=find(root,start);;;
         Map<Node,List<Node>>adj=new HashMap<>();
         f(root,null,adj);
         Queue<pair>q=new LinkedList<>();
