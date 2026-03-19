@@ -40,6 +40,7 @@ public class Q20 {
         Queue<pair>q=new LinkedList<>();
         q.add(new pair(startNode,0));
         int t=0;
+
         Set<Node>hs=new HashSet<>();
         hs.add(startNode);
         while(!q.isEmpty()){
